@@ -1,0 +1,4 @@
+superuser for database:
+	username = clem
+	email = uni email
+	password = "pass"
