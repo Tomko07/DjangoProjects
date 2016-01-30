@@ -15,5 +15,6 @@ def index(request):
 
 
 def about(request):
-    return HttpResponse("Rango says here is the about page.<br>"
-                        "<a href='/rango/'>Index Page</a>")
+	context_dict = {'emphasizedmsg': "(unicorns as well!)"}
+
+	return render(request, 'rango/about.html', context_dict)
